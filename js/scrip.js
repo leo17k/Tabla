@@ -3,7 +3,7 @@ var estatura = document.getElementById('Estatura');
 var condiciom = document.getElementById('Condicion');
 let editar = document.getElementById('Edit');
 
-
+let color = document.querySelector('.Condicion')
 
 function condicionxds(){
 
@@ -14,6 +14,7 @@ var y2 = y * y;
 
 if(x / y2 < 18.5){
     valor = 'Bajo peso (desnutrición)';
+    color.style.backgraund = 'gred';
 }
 else if( x / y2 >= 18.5 && x/y2 <= 24.9){
     valor='Peso Normal'
