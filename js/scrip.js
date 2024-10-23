@@ -14,7 +14,7 @@ var y2 = y * y;
 
 if(x / y2 < 18.5){
     valor = 'Bajo peso (desnutrición)';
-    color.style.backgraund = 'gred';
+    color.style.background = 'gred';
 }
 else if( x / y2 >= 18.5 && x/y2 <= 24.9){
     valor='Peso Normal'
