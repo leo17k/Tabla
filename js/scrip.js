@@ -3,7 +3,7 @@ var estatura = document.getElementById('Estatura');
 var condiciom = document.getElementById('Condicion');
 let editar = document.getElementById('Edit');
 
-let color = document.querySelector('.Condicion')
+let color = document.getElementByid('.Condicion');
 
 function condicionxds(){
 
